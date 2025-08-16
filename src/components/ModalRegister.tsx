@@ -3,20 +3,15 @@ import { useState } from "react";
 export default function ModalRegister() {
   const [fname, setFname] = useState("");
   const [fnameError, setFnameError] = useState(false);
-
   const [lname, setLname] = useState("");
   const [lnameError, setLnameError] = useState(false);
-
   const [plan, setPlan] = useState("");
   const [planError, setPlanError] = useState(false);
-
   const [gender, setGender] = useState("");
   const [genderError, setGenderError] = useState(false);
-
   const [buyBottle, setBuyBottle] = useState(false);
   const [buyShoes, setBuyShoes] = useState(false);
   const [buyCap, setBuyCap] = useState(false);
-
   const [isAgreed, setIsAgreed] = useState(false); // ✅ Terms
 
   // ----------------------------------------------------------------
